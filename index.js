@@ -1,7 +1,7 @@
 const core = require('@actions/core');
 const get = require('lodash.get');
 const github = require('@actions/github');
-const { lighthouseCheck } = require('@darinlarimore/lighthouse-check');
+const { lighthouseCheck } = require('@foo-software/lighthouse-check');
 
 const formatInput = input => {
   if (input === 'true') {
